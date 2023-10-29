@@ -1,0 +1,29 @@
+Source: skopeo
+Section: devel
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: xiexianbin <me@xiexianbin.cn>
+Homepage: https://github.com/containers/skopeo/tags
+Vcs-Browser: https://github.com/alvistack/skopeo
+Vcs-Git: https://github.com/alvistack/skopeo.git
+Build-Depends:
+  debhelper,
+  debhelper-compat (= 10),
+  golang-1.20,
+  libassuan-dev,
+  libglib2.0-dev,
+  libgpg-error-dev,
+  libgpgme-dev,
+  libseccomp-dev,
+
+Package: skopeo
+Architecture: amd64
+Description: Container image repository tool
+  skopeo is a command line utility for various operations on container
+  images and image repositories. skopeo is able to inspect a repository on
+  a Docker registry and fetch images layers. skopeo can copy container
+  images between various storage mechanisms.
+Depends:
+  ${shlibs:Depends},
+  ${misc:Depends},
+  containers-common,

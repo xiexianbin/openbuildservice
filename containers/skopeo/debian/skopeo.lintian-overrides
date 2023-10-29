@@ -1,0 +1,6 @@
+skopeo: bash-completion-with-hashbang
+skopeo: copyright-without-copyright-notice
+skopeo: initial-upload-closes-no-bugs
+skopeo: no-manual-page
+skopeo: statically-linked-binary
+skopeo: zero-byte-file-in-doc-directory

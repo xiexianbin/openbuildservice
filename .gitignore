@@ -1,0 +1,4 @@
+.history
+.DS_Store
+*.tar.gz
+containers/skopeo/build/*
